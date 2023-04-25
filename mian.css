@@ -12,17 +12,7 @@ body {
 .row {
   display: flex;
 }
-@media (max-width: 767px) {
-  .container {
-    margin: 20px auto;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .row {
-    flex-direction: column;
-  }
-}
+
 hr {
   border: 1px solid #eee;
 }
@@ -268,4 +258,23 @@ hr {
   border-radius: 10px;
   border: none;
   cursor: pointer;
+}
+@media (max-width: 767px) {
+  .container {
+    margin: 20px auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .letters {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .letters-guess span {
+    width: 20px;
+  }
 }

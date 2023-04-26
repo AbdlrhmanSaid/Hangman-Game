@@ -274,7 +274,8 @@ hr {
     width: -moz-fit-content;
     width: fit-content;
   }
-  .letters-guess span {
-    width: 20px;
+  .letters-guess {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
